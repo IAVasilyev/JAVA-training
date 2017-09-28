@@ -9,7 +9,7 @@ public class AboutPalindromes {
      */
 
     @Test
-    void IsPalindromeTest() {
+    void isPalindromeTest() {
         Assertions.assertTrue(isPalindrome("I did, did I?"));
         Assertions.assertTrue(isPalindrome("Eva, can I see bees in a cave?"));
         Assertions.assertTrue(isPalindrome(""));
