@@ -19,7 +19,7 @@ public class AboutPalindromes {
         Assertions.assertFalse(isPalindrome("Not a palindrome"));
     }
 
-    private static boolean isPalindrome(String forTest) {
+    private boolean isPalindrome(String forTest) {
         int leftCharacterIndex = 0, rightCharacterIndex = forTest.length() - 1;
         while (leftCharacterIndex < rightCharacterIndex) {
             char left;
