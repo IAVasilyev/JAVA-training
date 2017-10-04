@@ -1,4 +1,4 @@
-package stringQuestions;
+package numberQuestions;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
